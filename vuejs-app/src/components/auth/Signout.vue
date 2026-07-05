@@ -13,4 +13,4 @@ onMounted(async () => {
   userStore.reset();
   router.replace({ name: "auth.signin" });
 });
-</script>
+</script> 
