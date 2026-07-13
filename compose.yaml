@@ -23,7 +23,7 @@ services:
     working_dir: /app
     volumes:
       - ./vuejs-app:/app
-      - vuejs_data:/var/www/html/node_modules
+      - vuejs_data:/app/node_modules
       - ./docker/vuejs/entrypoint.development.sh:/usr/local/bin/entrypoint.development.sh
     ports:
       - 5173:5173
