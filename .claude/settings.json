@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"d:/Learn/Laravel/g19-bcs-c\" && rm laravel-app/public/storage && ls -la laravel-app/public)",
+      "Bash(docker compose *)",
+      "Bash(docker system *)",
+      "Bash(docker info *)",
+      "PowerShell(Get-NetIPInterface -AddressFamily IPv4)"
+    ],
+    "additionalDirectories": [
+      "d:\\Learn\\Laravel\\g19-bcs-c\\laravel-app\\public"
+    ]
+  }
+}

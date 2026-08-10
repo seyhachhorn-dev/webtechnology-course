@@ -1,0 +1,18 @@
+# Laravel
+laravel-app/public/storage
+laravel-app/vendor
+laravel-app/node_modules
+laravel-app/storage/logs/*
+laravel-app/storage/framework/cache/*
+laravel-app/storage/framework/sessions/*
+laravel-app/storage/framework/views/*
+laravel-app/.env
+
+# Vue
+vuejs-app/node_modules
+vuejs-app/dist
+
+# General
+.git
+.gitignore
+**/.DS_Store
