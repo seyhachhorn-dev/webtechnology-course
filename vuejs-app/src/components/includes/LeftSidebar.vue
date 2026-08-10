@@ -1,14 +1,14 @@
 <template>
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <router-link to="/" class="brand-link">
-      <img :src="logoImage" alt="Npic Chat System Logo" class="brand-image img-circle elevation-3 w-30 h-30" style="opacity: .8">
-      <span class="brand-text font-weight-light">Npic Chat System</span>
+      <img :src="logoImage" alt="Chat System Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">Chat System</span>
     </router-link>
 
     <div class="sidebar">
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img :src="emptyImage" class="img-circle elevation-2" alt="User Image">
+          <img :src="userStore.profile_thumbnail || emptyImage" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <router-link :to="{ name: 'profile' }" class="d-block">{{ userStore.name }}</router-link>
